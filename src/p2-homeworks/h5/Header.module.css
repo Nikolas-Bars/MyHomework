@@ -1,0 +1,52 @@
+.dropdown li{
+    display: inline-flex;
+    margin: 10px;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.dropdown {
+    display: inline-flex;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+.navLinks{
+    display: inline-flex;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: lightgoldenrodyellow;
+}
+
+.navLinks a {
+    padding: 5px;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    border: 1px solid blue;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+
+a:hover{
+    padding: 5px;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    border: 1px solid blue;
+    background-color: pink;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+a:active{
+    color: #F5A9F2;
+}

@@ -1,0 +1,59 @@
+.someClass {
+
+}
+
+.buttons {
+    display: inline-flex;
+    width: 420px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 3px;
+    align-content: center;
+    text-align: center;
+    background-color: #bbfbbc;
+}
+
+.HW2{
+    width: 600px;
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: lightgoldenrodyellow;
+}
+
+.affair{
+
+    display: inline-flex;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    min-width: 200px;
+    max-width: 400px;
+    background-color: #F5A9F2;
+    vertical-align: center;
+    height: 50px;
+
+
+  /*  vertical-align: center;*/
+
+
+}
+
+.affairSpan{
+    display: inline-block;
+
+}
+
+.affairInputButton{
+
+}
+
+.affairInputButton div {
+    display: inline-flex;
+    height: 60px;
+
+}
