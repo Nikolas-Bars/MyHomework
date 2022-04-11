@@ -16,7 +16,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
 ) => {
     const mappedOptions: any[] = options ? options.map((el, index) => {
         return(
-            <option key={index} value={el}>{el}</option>
+            <option key={index} style={{width: '100%', color: 'blue',fontWeight: 'bold', backgroundColor: 'violet', border: '2px solid red'}} value={el}>{el}</option>
         )
     }) : [] // map options with key
 
@@ -27,7 +27,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     }
 
     return (
-        <select onChange={onChangeCallback} {...restProps}>
+        <select onChange={onChangeCallback} {...restProps} style={{marginRight: '15px',color: 'yellow', fontWeight: 'bold', padding: '10px', borderRadius: '10px', backgroundColor: 'blue'}}>
             {mappedOptions}
         </select>
     )

@@ -1,12 +1,22 @@
-export const homeWorkReducer = (state: any, action: any): any => { // need to fix any
+export type UserType = {_id: number, name: string, age: number}
+export type StateType = Array<UserType>
+
+export type ActionType = {
+    type: 'sort'
+    payload: string
+}
+
+
+
+export const homeWorkReducer = (state: StateType, action: any): any => { // need to fix any
     switch (action.type) {
         case 'sort': {
-            // need to fix
-            return state
+            let stateCopy = [...state]
+            return action.payload === 'up' ? stateCopy.sort((a, b)=> a.age <= b.age ? -1 : 1) : stateCopy.sort((a, b)=> a.age >= b.age ? -1 : 1)
         }
         case 'check': {
-            // need to fix
-            return state
+
+            return state.filter(el => el.age >= 18)
         }
         default: return state
     }

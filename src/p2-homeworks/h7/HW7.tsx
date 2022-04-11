@@ -10,9 +10,10 @@ function HW7() {
     return (
         <div>
             <hr/>
-            homeworks 7
+
 
             {/*should work (должно работать)*/}
+      <div style={{display: "inline-flex", margin: '15px', backgroundColor: 'wheat', padding: '20px', borderRadius: '15px'}}>
             <div>
                 <SuperSelect
                     options={arr}
@@ -33,7 +34,7 @@ function HW7() {
                     onChangeOption={onChangeOption}
                 />
             </div>
-
+        </div>
 
 
 

@@ -18,24 +18,28 @@ function HW8() {
 
     // need to fix any
     const finalPeople = people.map((p: any) => (
-        <div key={p._id}>
-            some name, age
+        <div key={p._id} style={{display: "flex",justifyContent: 'space-between', backgroundColor: 'gray', padding: '10px', marginRight: '15px', marginBottom: '15px', borderRadius: '15px'}}>
+           <div> {p.name}</div>  <div>{p.age}</div>
         </div>
     ))
 
     const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'down'}))
+    const sort18 = () => setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 's18'}))
 
     return (
-        <div>
+        <div style={{display: 'inline-block', marginLeft: '15px', backgroundColor: 'wheat', border: '2px solid yellow', borderRadius: '15px', padding: '10px', marginTop: '15px'}}>
             <hr/>
-            homeworks 8
 
             {/*should work (должно работать)*/}
+         <div style={{ marginLeft: '30px' }}>
             {finalPeople}
+        </div>
+         <div style={{display: 'inline-flex', backgroundColor: 'wheat', borderRadius: '15px', padding: '10px', marginTop: '15px'}}>   <SuperButton onClick={sortUp}>sort up</SuperButton>
+            <SuperButton onClick={sortDown}>sort down</SuperButton>
+            <SuperButton onClick={sort18}>check 18</SuperButton>
+        </div>
 
-            <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-            <div>sort down</div>
-            check 18
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
