@@ -3,7 +3,7 @@ import Clock from './Clock'
 
 function HW9() {
     return (
-        <div>
+        <div style={{width: '400px', margin: '10px', backgroundColor: 'wheat', padding: '20px', borderRadius: '15px'}}>
             <hr/>
 
 

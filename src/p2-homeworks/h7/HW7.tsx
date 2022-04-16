@@ -13,7 +13,7 @@ function HW7() {
 
 
             {/*should work (должно работать)*/}
-      <div style={{display: "inline-flex", margin: '15px', backgroundColor: 'wheat', padding: '20px', borderRadius: '15px'}}>
+      <div style={{display: "inline-flex", margin: '12px', backgroundColor: 'wheat', padding: '20px', borderRadius: '15px', width: '400px',}}>
             <div>
                 <SuperSelect
                     options={arr}

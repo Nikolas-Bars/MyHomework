@@ -18,7 +18,7 @@ function HW11() {
     }
 
     return (
-        <div style={{margin: '10px'}}>
+        <div style={{width: '400px',margin: '10px', backgroundColor: 'wheat', padding: '20px', borderRadius: '15px'}}>
             <hr/>
             homeworks 11
 
@@ -29,8 +29,7 @@ function HW11() {
             </div>
 
             <div>
-                <SuperDoubleRange value={[value1, value2]} handleChange={handleChange} /><span>{value1}</span>
-                <span>{value2}</span>
+                <SuperDoubleRange value={[value1, value2]} handleChange={handleChange} />
             </div>
 
             <hr/>

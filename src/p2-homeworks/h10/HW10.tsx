@@ -3,7 +3,7 @@ import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "./bll/store";
 import {toggleAC} from "./bll/loadingReducer";
-import loader from './img/Preloader.gif'
+import loader from './img/p2.gif'
 
 function HW10() {
     // useSelector, useDispatch
@@ -19,7 +19,7 @@ function HW10() {
     };
 
     return (
-        <div>
+        <div style={{width: '400px', margin: '10px', backgroundColor: 'wheat', padding: '20px', borderRadius: '15px'}}>
             <hr/>
             homeworks 10
 

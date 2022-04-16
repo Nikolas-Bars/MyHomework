@@ -39,9 +39,9 @@ function Clock() {
     const stringDate = "Сегодня " + Day + " " + fMonth[Month] + " " + Year + " года" // fix with date
 
     return (
-        <div style={{backgroundColor: 'wheat', display: "inline-flex", flexDirection:"column", margin: '15px', padding: '15px', borderRadius: "15px"}}>
+        <div style={{backgroundColor: 'wheat', display: "inline-flex", flexDirection:"column", padding: '15px', borderRadius: "15px"}}>
 
-          <div style={{backgroundColor: 'wheat', display: "inline-flex", }}>
+          <div style={{backgroundColor: 'wheat', display: "inline-flex", flexDirection: 'column'}}>
             <div style={{backgroundColor: 'green', margin: '15px', padding: '15px', borderRadius: "15px", color: 'white', minWidth: '300px' }}
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}

@@ -28,7 +28,7 @@ function HW8() {
     const sort18 = () => setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 's18'}))
 
     return (
-        <div style={{display: 'inline-block', marginLeft: '15px', backgroundColor: 'wheat', border: '2px solid yellow', borderRadius: '15px', padding: '10px', marginTop: '15px'}}>
+        <div style={{display: 'inline-block',width: '414px', marginLeft: '15px', backgroundColor: 'wheat',  borderRadius: '15px', padding: '10px', marginTop: '15px'}}>
             <hr/>
 
             {/*should work (должно работать)*/}
