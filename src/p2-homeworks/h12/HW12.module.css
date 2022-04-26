@@ -1,5 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .dark {
+
     background: dimgrey;
+    width: 339px;
+    border-radius: 20px;
+    height: 80px;
+    padding: 50px;
+    margin: 10px;
 }
 
 .dark-text {
@@ -8,6 +19,11 @@
 
 .red {
     background: lightcoral;
+    width: 339px;
+    border-radius: 20px;
+    height: 80px;
+    padding: 50px;
+    margin: 10px;
 }
 
 .red-text {
@@ -16,8 +32,26 @@
 
 .some {
     background: lightgreen;
+    width: 339px;
+    border-radius: 20px;
+    height: 80px;
+    padding: 50px;
+    margin: 10px;
 }
 
 .some-text {
     color: darkslateblue;
+}
+.wheat{
+
+    background-color: wheat;
+    width: 339px;
+    border-radius: 20px;
+    height: 80px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.wheat-text {
+    color: black;
 }
